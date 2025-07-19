@@ -3,7 +3,7 @@ services:
     name: odoo-app
     env: docker
     plan: free
-    image: odoo:17
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: HOST
         value: "0.0.0.0"
