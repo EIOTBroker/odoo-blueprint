@@ -10,7 +10,6 @@ services:
       - key: PORT
         value: "5432"
       - key: DATABASE_URL
-        value: "postgresql://odoo:zxmlESVjyQee4odDCSds1S1LsQKdJHzk@dpg-d1u06o3e5dus73e2nps0-a/odoo_4crj"
         fromDatabase:
           name: odoo-db
           property: connectionString
