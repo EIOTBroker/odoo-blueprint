@@ -6,10 +6,11 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: HOST
-        value: "0.0.0.0"
+        value: "dpg-d1u06o3e5dus73e2nps0-a"
       - key: PORT
-        value: "8069"
+        value: "5432"
       - key: DATABASE_URL
+        value: "postgresql://odoo:zxmlESVjyQee4odDCSds1S1LsQKdJHzk@dpg-d1u06o3e5dus73e2nps0-a/odoo_4crj"
         fromDatabase:
           name: odoo-db
           property: connectionString
